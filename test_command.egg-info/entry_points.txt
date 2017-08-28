@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    test_command=test_command:cli
+    

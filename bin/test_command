@@ -1,0 +1,12 @@
+#!/Users/ericschles/Documents/projects/devops_work/domain-scan-orchestration/services/python_services/test_command/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'test-command','console_scripts','test_command'
+__requires__ = 'test-command'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('test-command', 'console_scripts', 'test_command')()
+    )

@@ -1,0 +1,7 @@
+setup.py
+test_command.egg-info/PKG-INFO
+test_command.egg-info/SOURCES.txt
+test_command.egg-info/dependency_links.txt
+test_command.egg-info/entry_points.txt
+test_command.egg-info/requires.txt
+test_command.egg-info/top_level.txt
